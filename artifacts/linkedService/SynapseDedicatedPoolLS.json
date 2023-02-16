@@ -8,7 +8,7 @@
 			},
 			"ServerName": {
 				"type": "string",
-				"defaultValue": "anwsys1pool"
+				"defaultValue": "anwsys1ws"
 			}
 		},
 		"annotations": [],
