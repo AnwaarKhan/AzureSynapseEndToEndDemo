@@ -4,11 +4,11 @@
 		"parameters": {
 			"DatabaseName": {
 				"type": "string",
-				"defaultValue": "healthcare"
+				"defaultValue": "anwsys1pool"
 			},
 			"ServerName": {
 				"type": "string",
-				"defaultValue": "health"
+				"defaultValue": "anwsys1pool"
 			}
 		},
 		"annotations": [],
