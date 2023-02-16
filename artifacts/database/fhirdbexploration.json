@@ -1,0 +1,22 @@
+{
+	"name": "fhirdbexploration",
+	"properties": {
+		"Name": "fhirdbexploration",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://anwsyn1con@anwsyn1stor.dfs.core.windows.net/fhirdbexploration",
+			"Properties": {
+				"FormatType": "parquet",
+				"LinkedServiceName": "anwsys1ws-WorkspaceDefaultStorage"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
